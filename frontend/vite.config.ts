@@ -4,10 +4,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+    target: 'es2015',
+    minify: 'esbuild',
+    cssMinify: 'esbuild',
     rollupOptions: {
-      output: {
-        manualChunks: undefined
-      }
+      external: []
     }
+  },
+  optimizeDeps: {
+    disabled: true
   }
 })
