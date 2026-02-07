@@ -120,10 +120,10 @@ To run services separately:
 
 ```bash
 # Start backend only
-npm run dev:backend
+npm start -backend
 
 # Start frontend only (in separate terminal)
-npm run dev:frontend
+npm run dev-frontend
 ```
 
 **Important:** Always keep both services running in separate terminals for full functionality.
