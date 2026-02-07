@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "firstName": "Jane2",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "phoneNumber": "9876543210",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "email": "bob.johnson@example.com",
+      "phoneNumber": "5551234567"
+    },
+    {
+      "firstName": "tyagi",
+      "lastName": "tyagi",
+      "email": "w@gmail.com",
+      "phoneNumber": "91931212121",
+      "id": 4
+    },
+    {
+      "firstName": "ds",
+      "lastName": "sdf",
+      "email": "t@g.com",
+      "phoneNumber": "819271892871",
+      "id": 5
+    },
+    {
+      "firstName": "ds",
+      "lastName": "sd",
+      "email": "dwssad@f.com",
+      "phoneNumber": "995852874854",
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "phoneNumber": "1234567890",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "password123",
+      "phoneNumber": "9876543210",
+      "createdAt": "2024-01-02T00:00:00.000Z",
+      "updatedAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "firstName": "ads",
+      "lastName": "sdf",
+      "email": "tyagi@g.com",
+      "password": "123456778",
+      "phoneNumber": "9193121212",
+      "createdAt": "2026-02-07T18:55:33.157Z",
+      "updatedAt": "2026-02-07T18:55:33.169Z",
+      "id": 3
+    }
+  ]
+}
